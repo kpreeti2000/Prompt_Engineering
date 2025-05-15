@@ -77,7 +77,7 @@ def find_operations(grouped):
         print()
 
 def main():
-    grouped = load_and_group_data("input.json")
+    grouped = load_and_group_data("Upload you json file path here")
     find_operations(grouped)
 
 if __name__ == "__main__":
